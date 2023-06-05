@@ -1,9 +1,9 @@
 lockfileVersion: '6.0'
 
 dependencies:
-  lucide:
+  lucide-react:
     specifier: ^0.236.0
-    version: 0.236.0
+    version: 0.236.0(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -2068,8 +2068,12 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /lucide@0.236.0:
-    resolution: {integrity: sha512-KZQVUl9qy/JcrTLxjtziO7KorjNQpOJqw5FpJG5uRK07S7FivOAoE4Dfu/ig5n5WQvxF9+PLYD1J7ylJMxYP+A==}
+  /lucide-react@0.236.0(react@18.2.0):
+    resolution: {integrity: sha512-himeKF7nVgOQ1BNcyBgk41E4/rcbmI6Zw8Q4o57nlynsFvIBA/DMacFpzKYdcyBReUj8jf08xTnCGyn/niLvwQ==}
+    peerDependencies:
+      react: ^16.5.1 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /merge2@1.4.1:
