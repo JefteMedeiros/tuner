@@ -63,7 +63,7 @@ function App() {
             ></audio>
           </div>
           <div className="flex items-center">
-            <span className="mr-2 font-bold min-w-[32px] text-white">A:</span>
+            <span className="mr-2 font-bold min-w-[32px] text-white">D:</span>
             <button
               className={`px-4 py-2 mr-2 rounded-md ${
                 activeButton === "A"
@@ -87,7 +87,7 @@ function App() {
             ></audio>
           </div>
           <div className="flex items-center">
-            <span className="mr-2 font-bold min-w-[32px] text-white">D:</span>
+            <span className="mr-2 font-bold min-w-[32px] text-white">G:</span>
             <button
               className={`px-4 py-2 mr-2 rounded-md ${
                 activeButton === "D"
@@ -111,7 +111,7 @@ function App() {
             ></audio>
           </div>
           <div className="flex items-center">
-            <span className="mr-2 font-bold min-w-[32px] text-white">G:</span>
+            <span className="mr-2 font-bold min-w-[32px] text-white">B:</span>
             <button
               className={`px-4 py-2 mr-2 rounded-md ${
                 activeButton === "G"
@@ -135,7 +135,7 @@ function App() {
             ></audio>
           </div>
           <div className="flex items-center">
-            <span className="mr-2 font-bold min-w-[32px] text-white">B:</span>
+            <span className="mr-2 font-bold min-w-[32px] text-white">A:</span>
             <button
               className={`px-4 py-2 mr-2 rounded-md ${
                 activeButton === "B"
